@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Stand de ASIR - Feria del Estudiante" />
+  <title>ASIR | Feria del Estudiante</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">ASIR</div>
+    <nav aria-label="Navegación principal">
+      <a href="#que-es">Qué es</a>
+      <a href="#aprendes">Qué aprenderás</a>
+      <a href="#quiz">Quiz</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <h1>Descubre el ciclo de ASIR</h1>
+      <p class="lead">Sistemas, redes, seguridad, web y bases de datos. Ven a nuestro stand y descubre cómo funciona la tecnología que usamos cada día.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#quiz">Hacer el quiz</a>
+        <a class="btn btn-outline" href="#que-es">Conocer ASIR</a>
+      </div>
+    </section>
+
+    <section class="section" id="que-es">
+      <h2>¿Qué es ASIR?</h2>
+      <p>ASIR (Administración de Sistemas Informáticos en Red) es un ciclo formativo de grado superior de la familia de Informática y Comunicaciones. Forma a técnicos capaces de instalar, configurar y mantener sistemas informáticos, redes y servicios, garantizando su seguridad y buen funcionamiento en empresas de cualquier tamaño.</p>
+      <p>Tiene una duración de 2000 horas repartidas en dos cursos académicos, combinando clases teóricas, prácticas de laboratorio y un periodo de formación en empresas (FCT). En nuestro proyecto intermodular hemos trabajado de forma conjunta las áreas de sistemas, redes, seguridad, aplicaciones web y bases de datos, tal y como se haría en un entorno de trabajo real.</p>
+
+      <div class="stat-row">
+        <div class="stat"><span class="stat-num">2</span><span class="stat-label">años de duración</span></div>
+        <div class="stat"><span class="stat-num">2000</span><span class="stat-label">horas lectivas</span></div>
+        <div class="stat"><span class="stat-num">5</span><span class="stat-label">áreas técnicas</span></div>
+      </div>
+
+      <div class="box-grid">
+        <div class="box">
+          <h3>Aprender haciendo</h3>
+          <p>El trabajo se organiza mediante retos, tareas, pruebas y evidencias, montando servidores y redes reales en el aula.</p>
+        </div>
+        <div class="box">
+          <h3>Trabajo en equipo</h3>
+          <p>La planificación, la documentación y la defensa del proyecto también forman parte del trabajo, igual que en una empresa.</p>
+        </div>
+        <div class="box">
+          <h3>Salidas profesionales</h3>
+          <p>Administrador de sistemas, técnico de redes, técnico de soporte, administrador de bases de datos o técnico en ciberseguridad, entre otras.</p>
+        </div>
+        <div class="box">
+          <h3>Acceso a la universidad</h3>
+          <p>Al terminar el ciclo puedes incorporarte al mundo laboral o continuar estudiando un grado universitario relacionado.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-gray" id="aprendes">
+      <h2>¿Qué aprenderás?</h2>
+      <div class="cards">
+        <div class="card card-sistemas">
+          <span class="icon">🖥️</span>
+          <h3>Sistemas</h3>
+          <p>Instalación, configuración y administración de equipos, servidores y entornos virtualizados.</p>
+          <ul class="card-list">
+            <li>Windows Server y Linux</li>
+            <li>Virtualización (VirtualBox, VMware)</li>
+            <li>Directorio activo y usuarios</li>
+            <li>Automatización de tareas</li>
+          </ul>
+        </div>
+        <div class="card card-redes">
+          <span class="icon">🌐</span>
+          <h3>Redes</h3>
+          <p>Diseño, cableado, configuración y mantenimiento de redes informáticas.</p>
+          <ul class="card-list">
+            <li>Switches y routers</li>
+            <li>Protocolo TCP/IP</li>
+            <li>Redes Wifi</li>
+            <li>Resolución de averías</li>
+          </ul>
+        </div>
+        <div class="card card-seguridad">
+          <span class="icon">🔐</span>
+          <h3>Seguridad</h3>
+          <p>Protección de sistemas, redes y servicios frente a amenazas informáticas.</p>
+          <ul class="card-list">
+            <li>Cortafuegos y antivirus</li>
+            <li>Copias de seguridad</li>
+            <li>Políticas de contraseñas</li>
+            <li>Detección de fraudes</li>
+          </ul>
+        </div>
+        <div class="card card-web">
+          <span class="icon">🌍</span>
+          <h3>Web</h3>
+          <p>Despliegue de servicios y aplicaciones web dentro de una infraestructura.</p>
+          <ul class="card-list">
+            <li>HTML, CSS y JavaScript</li>
+            <li>Servidores Apache y Nginx</li>
+            <li>Alojamiento de páginas</li>
+            <li>Certificados y dominios</li>
+          </ul>
+        </div>
+        <div class="card card-bbdd">
+          <span class="icon">🗄️</span>
+          <h3>Bases de datos</h3>
+          <p>Organización, consulta y gestión de la información de una empresa.</p>
+          <ul class="card-list">
+            <li>Modelado de datos</li>
+            <li>SQL y consultas</li>
+            <li>MySQL / PostgreSQL</li>
+            <li>Copias y restauración</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="quiz">
+      <h2>Pon a prueba tus conocimientos</h2>
+      <p>10 preguntas rápidas. No necesitas saber informática para intentarlo.</p>
+
+      <div class="quiz-box" id="quizBox">
+        <div id="quizStart" class="quiz-screen active">
+          <h3>¿Hasta dónde llegas?</h3>
+          <p>Responde 10 preguntas sobre tecnología, redes y seguridad.</p>
+          <button class="btn btn-primary" id="startBtn">Empezar</button>
+        </div>
+
+        <div id="quizQuestion" class="quiz-screen" aria-live="polite">
+          <div class="quiz-topline">
+            <span id="progressText">Pregunta 1 de 10</span>
+            <span id="scoreText">0 puntos</span>
+          </div>
+          <div class="progress"><div id="progressBar"></div></div>
+          <h3 id="questionText"></h3>
+          <div id="answers" class="answers"></div>
+          <p id="feedback" class="feedback"></p>
+          <button class="btn btn-primary hidden" id="nextBtn">Siguiente</button>
+        </div>
+
+        <div id="quizResult" class="quiz-screen">
+          <div class="result-number" id="resultNumber">0/10</div>
+          <h3 id="resultTitle"></h3>
+          <p id="resultText"></p>
+          <button class="btn btn-primary" id="restartBtn">Repetir quiz</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-gray callout">
+      <h2>¿Quieres saber más?</h2>
+      <p>Acércate al stand y pregunta al equipo. Podrás ver demostraciones y conocer mejor el ciclo.</p>
+      <a class="btn btn-outline" href="#inicio">Volver arriba</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>Proyecto Feria del Estudiante · ASIR · 2026</p>
+    <p>Equipo: Saul · Jacob · Rende · Samuel · Joan</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
